@@ -34,4 +34,6 @@ class Workout {
 }
 
 const tracker = new CalorieTracker();
-
+tracker.addMeal(new Meal('lunch', 500));
+tracker.addMeal(new Meal('dinner', 700));
+console.log(tracker);
